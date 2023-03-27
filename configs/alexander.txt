@@ -1,0 +1,18 @@
+expname = unity_uncertainty_alexander_v1
+basedir = ../logs/
+datadir = ../data/unity/alexander-30-150-sa
+dataset_type = unityl
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_samples = 128
+N_importance = 256
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+half_res = True
